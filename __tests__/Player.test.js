@@ -8,7 +8,6 @@ console.log(new Potion());
 
 test('creates a player object', () => {
     const player = new Player('Dave')
-    console.log(player.getInventory())
     expect(player.name).toBe('Dave');
     expect(player.health).toEqual(expect.any(Number));
     expect(player.strength).toEqual(expect.any(Number));
